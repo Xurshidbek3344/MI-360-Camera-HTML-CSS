@@ -67,3 +67,54 @@ body{
     color: #F8F9FA;
 }
 
+.home {
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
+.container {
+padding: 0 15px;
+margin: 0 auto;
+    width: 1200px;
+}
+
+.home__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.left__title {
+    font-size: 60px;
+    width: 538px;
+    color:  #343A40;
+  padding-bottom: 50px;
+  padding-top: 100px;
+  font-weight: 900;
+}
+
+.left__text {
+    font-size: 16px;
+    width: 370px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    padding-left: -50px;
+}
+
+.card__btn {
+    width: 150px;
+    height: 50px;
+    background-color: #372B2B;
+    color: #F8F8F8;
+    border: none;
+border-radius: 5px;
+cursor: pointer;
+margin-right: 30px;
+margin-bottom: 100px;
+}
+
+.right__img{
+    width: 600px;
+padding-top: 100px;
+}
